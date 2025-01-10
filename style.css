@@ -18,6 +18,8 @@ body {
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
+
+	--primary: #f1356d;
 }
 
 #app {
@@ -30,13 +32,14 @@ body {
 	height: 80%;
 	border-radius: 15px;
 	background-color: #272727;
-	padding: 5%;
+	padding: 3%;
 	overflow: hidden;
 }
 
 #app .startPage,
 #app .configPage,
 #app .gamePage {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -46,46 +49,56 @@ body {
 }
 
 #app .firstText {
-	transform: translateX(-1000%);
+	transform: translateX(0);
 	font-size: 5vw;
-	animation: fromRight ease-in-out 1.5s forwards;
+	animation: fromRight 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	display: inline-block;
 }
 
 #app .firstText:nth-child(2) {
 	font-size: 5vw;
-	animation: fromRight ease-in-out 1.5s 0.5s forwards;
+	animation: fromRight 1.5s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 #app .firstText:nth-child(3) {
 	font-size: 6vw;
-	animation: fromRightSpecial ease-in-out 4s 1s forwards;
+	animation: fromRightSpecial 4s 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	margin-bottom: 3vh;
 }
 
 #app .exitAnimation {
-	animation: exitfromRight ease-in-out 1s forwards;
+	animation: exitToLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 #app .startPage .actionButton {
-	transform: translateX(-1000%);
-	animation: fromRight ease-in-out 1s 2.75s forwards;
+	transform: translateX(0);
+	animation: fromRight 1s 2.75s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	font-size: 3vw;
+	width: 25%;
 }
 #app .actionButton {
-	padding: 0.5em 1em;
-	width: 40%;
-	border: none;
-	border-radius: 25px;
-	background-color: #f1356d;
-	color: white;
-	font-size: 1vw;
+	--bg: #151515;
+	--hover-bg: var(--primary);
+	--hover-text: #000;
+	color: #fff;
 	cursor: pointer;
-	transition: all 0.3s;
+	border: 1px solid var(--bg);
+	border-radius: 15px;
+	padding: 0.5em 1em;
+	background: var(--bg);
+	transition: 0.2s;
+	font-size: 1.5vw;
 }
 
 #app .actionButton:hover {
-	background-color: #be2452;
-	transform: scale(1.05) rotate(-2.5deg);
+	color: var(--hover-text);
+	transform: translate(-0.25rem, -0.25rem);
+	background: var(--hover-bg);
+	box-shadow: 0.5rem 0.5rem var(--bg);
+}
+
+#app .actionButton:active {
+	transform: translate(0, 0);
+	box-shadow: none;
 }
 
 @keyframes fromRight {
@@ -118,7 +131,7 @@ body {
 	}
 }
 
-@keyframes exitfromRight {
+@keyframes exitToLeft {
 	0% {
 		transform: translateX(0);
 		opacity: 1;
@@ -136,7 +149,7 @@ body {
 
 #app .configPage h1,
 #app .gamePage h1 {
-	font-size: 5vw;
+	font-size: 4vw;
 }
 
 #app .configContainer {
@@ -182,7 +195,8 @@ body {
 	justify-content: space-between;
 }
 
-#app .gamePage .questionContainer .counter {
+#app .gamePage .questionContainer .counter,
+#app .volume {
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -194,7 +208,8 @@ body {
 	box-shadow: 0 0 0px 1px rgba(255, 255, 255, 0.06);
 	font-size: 1.5vw;
 }
-#app .gamePage .questionContainer .timer {
+#app .gamePage .questionContainer .timer,
+#app .gamePage .timerGlobal {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -207,7 +222,30 @@ body {
 	font-size: 1.5vw;
 }
 
+#app .gamePage .timerGlobal {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: min-content;
+	height: min-content;
+}
+
+#app .volume {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 4vw;
+	bottom: 15%;
+	z-index: 2;
+}
+
+#app .volume img {
+	width: 2vw;
+}
+
 #app .gamePage .questionContainer h1 {
+	width: 80%;
+	text-align: center;
 	font-size: 2vw;
 }
 
@@ -253,6 +291,14 @@ body {
 	font-weight: 600;
 }
 
+#app .gamePage .questionContainer .reponses.background_true {
+	background-color: #174d19;
+}
+
+#app .gamePage .questionContainer .reponses.background_false {
+	background-color: #621919;
+}
+
 #app .resultPage {
 	width: 80%;
 	padding: 0 1rem;
@@ -264,7 +310,7 @@ body {
 
 @supports (scrollbar-color: auto) {
 	.resultPage {
-		scrollbar-color: #f1356d #272727;
+		scrollbar-color: var(--primary) #272727;
 		scrollbar-width: thin;
 		scrollbar-track-color: #272727;
 		scrollbar-gutter: stable;
