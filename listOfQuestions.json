@@ -1,0 +1,424 @@
+{
+	"questions": [
+		{
+			"difficulty": "facile",
+			"question": "Le soleil est une étoile.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle est la couleur du ciel par temps clair ?",
+			"type": "multiple",
+			"options": ["Bleu", "Rouge", "Vert", "Jaune"],
+			"answer": "Bleu"
+		},
+		{
+			"difficulty": "facile",
+			"question": "La Terre est la troisième planète du système solaire.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Combien de continents y a-t-il sur Terre ?",
+			"type": "multiple",
+			"options": ["5", "6", "7", "8"],
+			"answer": "7"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Les chats ont tous le même comportement.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Faux"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle est la capitale de la France ?",
+			"type": "multiple",
+			"options": ["Paris", "Londres", "Madrid", "Berlin"],
+			"answer": "Paris"
+		},
+		{
+			"difficulty": "facile",
+			"question": "L'eau gèle à 0°C.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quel est le plus grand mammifère terrestre ?",
+			"type": "multiple",
+			"options": ["Éléphant", "Rhinocéros", "Girafe", "Hippopotame"],
+			"answer": "Éléphant"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Les oiseaux volent tous.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Faux"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle planète est connue comme la planète rouge ?",
+			"type": "multiple",
+			"options": ["Mars", "Jupiter", "Vénus", "Saturne"],
+			"answer": "Mars"
+		},
+		{
+			"difficulty": "facile",
+			"question": "La gravité attire les objets vers la Terre.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle est la forme de la Terre ?",
+			"type": "multiple",
+			"options": ["Sphère", "Cercle", "Cube", "Plate"],
+			"answer": "Sphère"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Le chocolat vient du cacao.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Combien y a-t-il de jours dans une semaine ?",
+			"type": "multiple",
+			"options": ["5", "6", "7", "8"],
+			"answer": "7"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Les poissons d'eau douce peuvent vivre dans la mer.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Faux"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle est la plus grande planète du système solaire ?",
+			"type": "multiple",
+			"options": ["Jupiter", "Saturne", "Terre", "Mars"],
+			"answer": "Jupiter"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Une flamme bleu est plus chaude qu'une flamme rouge.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle est la capitale de l'Italie ?",
+			"type": "multiple",
+			"options": ["Rome", "Paris", "Madrid", "Berlin"],
+			"answer": "Rome"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Les humains ont besoin d'oxygène pour vivre.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "facile",
+			"question": "Quelle est la langue officielle du Japon ?",
+			"type": "multiple",
+			"options": ["Japonais", "Chinois", "Coréen", "Thaïlandais"],
+			"answer": "Japonais"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "La Lune influence les marées terrestres.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Combien de pattes possède une araignée ?",
+			"type": "multiple",
+			"options": ["6", "8", "10", "12"],
+			"answer": "8"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Le pH neutre est égal à 7.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quel est l'organe principal du système nerveux humain ?",
+			"type": "multiple",
+			"options": ["Cerveau", "Cœur", "Poumons", "Foie"],
+			"answer": "Cerveau"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "La lumière se déplace plus vite que le son.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quelle est la capitale de l'Australie ?",
+			"type": "multiple",
+			"options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+			"answer": "Canberra"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Un humain adulte possède combien d'os en moyenne ?",
+			"type": "multiple",
+			"options": ["206", "210", "198", "215"],
+			"answer": "206"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "L'éruption volcanique du Vésuve a détruit Pompéi en 79 après J.-C.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quel est le métal principal contenu dans l'acier ?",
+			"type": "multiple",
+			"options": ["Fer", "Cuivre", "Aluminium", "Nickel"],
+			"answer": "Fer"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Les baleines sont des mammifères.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Combien de lunes possède la planète Mars ?",
+			"type": "multiple",
+			"options": ["1", "2", "3", "4"],
+			"answer": "2"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quelle est la formule chimique de l'eau ?",
+			"type": "multiple",
+			"options": ["H2O", "O2", "CO2", "HO2"],
+			"answer": "H2O"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "La Grande Muraille de Chine est visible depuis l'espace à l'œil nu.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Faux"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quel pays est le plus grand producteur de café au monde ?",
+			"type": "multiple",
+			"options": ["Colombie", "Vietnam", "Brésil", "Indonésie"],
+			"answer": "Brésil"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Combien de temps la Terre met-elle pour tourner autour du Soleil ?",
+			"type": "multiple",
+			"options": ["24 heures", "365 jours", "30 jours", "1 mois"],
+			"answer": "365 jours"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+			"type": "multiple",
+			"options": ["Oxygène", "Azote", "Carbone", "Hydrogène"],
+			"answer": "Azote"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Le tableau 'La Joconde' est exposé au musée d'Orsay.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Faux"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quel est le nombre de chromosomes dans une cellule humaine normale ?",
+			"type": "multiple",
+			"options": ["23", "46", "44", "48"],
+			"answer": "46"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Quel est l'océan le plus profond au monde ?",
+			"type": "multiple",
+			"options": ["Atlantique", "Pacifique", "Indien", "Arctique"],
+			"answer": "Pacifique"
+		},
+		{
+			"difficulty": "moyenne",
+			"question": "Les pandas géants se nourrissent principalement de bambou.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Albert Einstein n'a pas remporté le prix Nobel pour la théorie de la relativité.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "true"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel est le plus grand désert du monde ?",
+			"type": "multiple",
+			"options": ["Sahara", "Antarctique", "Gobi", "Kalahari"],
+			"answer": "Antarctique"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel est l'élément chimique avec le symbole 'Hg' ?",
+			"type": "multiple",
+			"options": ["Mercure", "Hydrogène", "Magnésium", "Hélium"],
+			"answer": "Mercure"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "L'hypothèse de Riemann est un problème mathématique non résolu.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quelle est la capitale du Kazakhstan ?",
+			"type": "multiple",
+			"options": ["Astana", "Almaty", "Bichkek", "Tachkent"],
+			"answer": "Astana"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel scientifique est connu pour la découverte de la radioactivité ?",
+			"type": "multiple",
+			"options": ["Marie Curie", "Albert Einstein", "Isaac Newton", "Niels Bohr"],
+			"answer": "Marie Curie"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "L'œuvre 'Le Cri' a été réalisée par Edvard Munch.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quelle est la profondeur approximative de la fosse des Mariannes ?",
+			"type": "multiple",
+			"options": ["11 000 mètres", "8 000 mètres", "15 000 mètres", "6 000 mètres"],
+			"answer": "11 000 mètres"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Le code génétique humain comprend combien de paires de bases ?",
+			"type": "multiple",
+			"options": ["3 milliards", "30 millions", "300 millions", "3 millions"],
+			"answer": "3 milliards"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "En quelle année a eu lieu la bataille de Hastings ?",
+			"type": "multiple",
+			"options": ["1066", "1215", "1347", "1000"],
+			"answer": "1066"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel est le plus grand satellite naturel de notre système solaire ?",
+			"type": "multiple",
+			"options": ["Ganymède", "Titan", "Europe", "Io"],
+			"answer": "Ganymède"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Le Boson de Higgs a été confirmé expérimentalement en 2012.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel est le nom de l'étoile la plus proche de la Terre après le Soleil ?",
+			"type": "multiple",
+			"options": ["Proxima Centauri", "Alpha Centauri", "Sirius", "Bételgeuse"],
+			"answer": "Proxima Centauri"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Dans quel pays se trouve le Machu Picchu ?",
+			"type": "multiple",
+			"options": ["Pérou", "Bolivie", "Chili", "Équateur"],
+			"answer": "Pérou"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "La mécanique quantique a été principalement développée au début du 20e siècle.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel est le seul mammifère capable de voler ?",
+			"type": "multiple",
+			"options": ["Chauve-souris", "Écureuil volant", "Colugo", "Aucun"],
+			"answer": "Chauve-souris"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Qui a écrit 'À la recherche du temps perdu' ?",
+			"type": "multiple",
+			"options": ["Marcel Proust", "Victor Hugo", "Gustave Flaubert", "Émile Zola"],
+			"answer": "Marcel Proust"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Quel est l'acide présent dans le vinaigre ?",
+			"type": "multiple",
+			"options": ["Acide acétique", "Acide citrique", "Acide formique", "Acide sulfurique"],
+			"answer": "Acide acétique"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "Combien de satellites naturels possède Jupiter ?",
+			"type": "multiple",
+			"options": ["79", "53", "63", "100"],
+			"answer": "79"
+		},
+		{
+			"difficulty": "difficile",
+			"question": "La vitesse de la lumière dans le vide est d'environ 300 000 km/s.",
+			"type": "true/false",
+			"options": ["Vrai", "Faux"],
+			"answer": "Vrai"
+		}
+	]
+}
